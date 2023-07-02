@@ -14,3 +14,9 @@ class Rectangle:
         print(f"Width: {self.width}")
         print(f"Perimeter: {self.perimeter()}")
         print(f"Area: {self.area()}")
+
+
+class Parallelepipede(Rectangle):
+    def __init__(self, length, width, height):
+        super().__init__(length, width)
+        self.height = height
